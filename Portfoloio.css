@@ -1,39 +1,34 @@
 body{
     padding:0px;
-    margin:0px;
-    
+    margin:0px;  
 }
 #one{
     width:100%;
     margin:0px;
 }
 h1{
-   font-size: 70px;
-   color:thistle;
+   font-size: 80px;
+   color:rgb(24, 83, 27);
    font-family:'Zen Dots', 'Arial Narrow', Arial, sans-serif;
    position:absolute;
    top:15%;
    right: 50%;
 }
- #name{
-    font-size:35px;
-    font-family: 'Coda Caption', 'Arial Narrow', Arial, sans-serif;
-    display:inline-block;
-    color:white;
-    padding:25px;
-}
+ 
 nav a{
     text-decoration: none;
     overflow:hidden;
     color:rgba(243, 240, 240, 0.945);
     font-size:35px;
     font-family: 'Zen Dots', 'Arial Narrow', Arial, sans-serif;
-    padding:25px;  
+    padding:25px;
+    text-align:right;  
 }
 nav{
     background-color: rgba(10, 0, 0, 0.596); 
-     margin:0px;
-     text-align:right;   
+     margin:0px; 
+     padding:15px;
+    
 }
 nav a:hover{
     color:cornflowerblue;
@@ -70,13 +65,7 @@ nav a:hover{
     min-height: 80%;
 }
 
- #about{
-    text-align:left;
-    font-size:60px;
-    font-family:'Roboto Mono', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:rgb(97, 37, 37);
-    padding-left: 25px;
-} 
+
 #home{
     background-color:rgb(241, 248, 250);
     width:50%;
@@ -99,11 +88,176 @@ nav a:hover{
     width:40%;
     float:right;
 }
+ section3 [navigation]{
+    font-size: 70px;
+   color:rgb(47, 80, 28);
+   font-family:'Zen Dots', 'Arial Narrow', Arial, sans-serif;
+   text-align:left;
+}
 #project{
     font-size:70px;
-    font-family:'Roboto Slab' ,Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     text-align:center;
+    color:rgb(50, 72, 168);
+    background-color: rgb(245, 241, 241);
+    padding:10px;
+    border-style:solid;
+    border-color:rgba(70, 69, 67, 0.199);
+    border-radius:5px;
+}
+.home{
+    display:inline-block;
+}
+section2 {
+    display:inline-block;
+}
+.about{
+    color:rgb(110, 38, 38);
+    font-size:70px;
+    text-align:center;
+    font-family:'Roboto Slab' ,Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightgray;
+    padding:15px;
+    border-style:solid;
+    border-color: black;
+    border-radius:5px;
+}
+#Skills{
+    color:rgb(26, 90, 26);
+    background-color:rgba(197, 197, 194, 0.582);
+    font-size:70px;
+    text-align:center;
+    padding:15px;
+    border-style:solid;
+    border-color:black;
+    border-radius:10px;
+    margin:0px;
+}
+.Skills img{
+    width:30%;
     
 }
+.Skills h3{
+    text-align:center;
+    color:rgba(139, 58, 58, 0.562);
+    font-size:50px;
+    font-family:'Roboto Slab' ,Verdana, Geneva, Tahoma, sans-serif;
+}
+#language{
+    display: inline-block;
+    text-align:center;
+}
+.Java{
+width:50%;
+text-align:center;
+float:left;
+}
+.Java img{
+    float:center;
+}
+.C{
+    width:50%;
+    text-align:center;
+    float:right;
+    }
+    .C img{
+        float:center;
+    }
+    #frontend{
+        display:inline-block;
+        text-align: center;
+    }
+    .HTML{
+        width:43%;
+        text-align:center;
+        float:left;
+        }
+        .HTML img{
+            float:center;   
+        }
+ .CSS{
+            width:57%;
+            text-align:center;
+            float:right;
+     }
+ .CSS img{
+                float:center;
+            }
+   .Git{
+       display:flex;
+       justify-content: center;
+   } 
+         .Skills p{
+             font-family:'Zen Dots', 'Arial Narrow', Arial, sans-serif;
+             color:rgba(67, 36, 124, 0.452);
+             font-size: 35px;
+         } 
+         .Contact h2{
+              font-size:70px;
+              font-family:'Roboto Slab' ,Verdana, Geneva, Tahoma, sans-serif;
+              background-color:rgba(17, 1, 1, 0.534);
+              color:rgb(238, 228, 228);
+              padding:15px;
+              text-align:center;
+              border-style: solid;
+              border-radius: 5px;
+              border:10px;
+              border-color:white;
+         }
+      .contact{
+                display:flex;
+                flex-direction:row;
+                justify-content:center;
+      } 
+      .contact ul li{
+          font-size:30px;
 
+      } 
+
+      .contact ul{
+          flex-direction: row;
+      }
+      .common{
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+        #contact{
+            width:30%;
+            font-size:50px;
+            text-align:center;
+            font-family:'Roboto Mono', 'Arial Narrow', Arial, sans-serif;;
+            color:rgb(51, 51, 153);
+            text-shadow: black;
+            justify-content: center;
+            border-style:solid;
+            background-color:lightgray;
+            border-color:black;
+            border:5px;
+            border-radius:7px;
+            padding:10px;
+        } 
+        #para{
+            font-size:30px;
+            color:rgb(104, 38, 38);
+            font-family:'Zen Dots', 'Arial Narrow', Arial, sans-serif; ;
+            text-align:center;
+        }
+        .Contact{
+            background-color: rgba(253, 252, 252, 0.986);
+        }
+        #clip img{
+            float:center;
+           width:300px;
+            border-style:solid;
+            border-color:rgba(155, 155, 75, 0.582);
+            border:10px;
+        }
+        #clip{
+            clip-path: circle(46.5% at 50% 50%);
+            width:30%;
+        }
+        
+
+        
 
