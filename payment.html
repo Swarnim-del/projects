@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <form action="">
+
+    <h1 class="header">Payment form</h1>
+    <hr>
+    <div class="border">
+    <h1 class="user"> User Details</h1>
+    
+
+    <p class="name">
+        Name:*<input type="text"name="name"required placeholder="dantavali">
+    </p>
+    <fieldset style="border-style:groove">
+        <legend>Gender</legend>
+    <p>
+        Male*<input type="radio" name="gender" id="male"required>
+        Female<input type="radio" name="gender"id="female">
+        Others<input type="radio" name="gender" id="common">
+    </p>
+</fieldset>
+<p class="address">
+    Address: <textarea name="address" id="address"rows="10"cols="150" placeholder=" aao kabhi haveli pe"></textarea> 
+</p>
+<p class="Email"> Email: <input type="email" name ="email"id="email" placeholder="yourname@example.com"></p>
+<p> Pincode: <input type="number"name="pincode"id="pincode" placeholder="vo jivan ke sabse mahatavapunra 6 no"></p>
+
+
+</div>
+<hr>
+<div class="payment">
+<h2 class="details"> Payment Details</h2> 
+<p class="card">Card type
+   <select name="Card"id="card">
+       <option> value= "" >--Select a card type--</option>
+        <option value="visa">Visa</option>
+        <option value="American Express">American Express</option>
+        <option value="master card">Master card</option>
+    </select>
+</p>
+<p> Card Number: <input type="password"name="cardno"id="cardnumber" placeholder="XXXXXXXXXXXX"></p>
+<p>CVV:<input type="number"name="cvv" id="cvv" placeholder="XXX"></p>
+<p> Exp date: <input type="date" name = "date"id="date"></p>
+<div>
+<p class="pay"> <input type="submit"value="Paynow"></p>
+</div>
+</div>
+ </form>
+</body>
+</html>
