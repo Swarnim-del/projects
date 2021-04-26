@@ -14,17 +14,19 @@ nav a{
     color:rgba(243, 240, 240, 0.945);
     font-size:35px;
     font-family: 'Zen Dots', 'Arial Narrow', Arial, sans-serif;
-    padding:25px;
-    text-align:right;  
+    padding:30px;
+    text-align:center;  
 }
 nav{
     background-color: rgba(10, 0, 0, 0.596); 
      margin:0px; 
-     padding:15px;
-    
+     padding:25px;
+     text-align:center;
 }
 nav a:hover{
     color:cornflowerblue;
+    text-align:center;
+    
 }
 #two{
     width:45%;
@@ -101,6 +103,7 @@ nav a:hover{
 .home{
     display:inline-block;
 }
+
 section2 {
     display:inline-block;
 }
@@ -219,7 +222,7 @@ float:left;
             width:30%;
             font-size:50px;
             text-align:center;
-            font-family:'Roboto Mono', 'Arial Narrow', Arial, sans-serif;;
+            font-family:'Roboto Mono', 'Arial Narrow', Arial, sans-serif;
             color:rgb(51, 51, 153);
             text-shadow: black;
             justify-content: center;
@@ -289,6 +292,57 @@ ul {
 .footer{
     float:center;
 }
+.Project0{
+font-size:30px;
+font-family:'Roboto Mono', 'Arial Narrow', Arial, sans-serif;
+color:rgb(129, 46, 46);
+}
+#Project1,#Project2{
+    max-width:300px;
+}
+.Project{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:15px;
+}
+.Project1 p,.Project2 p{
+    text-align:center;
+    
+   
+}
+.Project1,.Project2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-style: solid;
+    border-radius:15px;
+    border:15px;
+    border-color:gray
+    
+    
+}
+.Project a{
+    text-decoration: none;
+    font-size:40px;
+    color:rgb(190, 188, 188);
+    border-style:solid;
+    border-color:rgb(145, 141, 141);
+    
+    border-radius:10px;
+    text-align:center;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin:25px;
+}
+
+
+
+
+
 
 
         
