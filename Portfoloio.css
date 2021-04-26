@@ -6,14 +6,7 @@ body{
     width:100%;
     margin:0px;
 }
-h1{
-   font-size: 80px;
-   color:rgb(107, 109, 107);
-   font-family:'Zen Dots', 'Arial Narrow', Arial, sans-serif;
-   position:absolute;
-   top:15%;
-   right: 50%;
-}
+
  
 nav a{
     text-decoration: none;
